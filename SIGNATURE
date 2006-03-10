@@ -1,0 +1,57 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.53.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 845aa685b90d822348458942cd6e069dbbf6343d LICENCE
+SHA1 dc7b86d97067476965ba9728d5700354b36f8104 MANIFEST
+SHA1 16bc8a6606b4ad6e5ce288984cb078da49fd7608 META.yml
+SHA1 5f80dee7f98b75a92c187e5e0c237a37fe241e47 Makefile.PL
+SHA1 eb3c8f57a819d21c7a78ff7c2b4e1cda2599f168 chartables.c
+SHA1 6be091981d7c469d101440747551fb3bc678203a config.h
+SHA1 89cb44fabe4e8c0bb7574d490e36ed94182b9743 get.c
+SHA1 d8b9667ffececacd29207558443e97635c1a3127 inc/Module/Install.pm
+SHA1 466cb923f95b5b322927136d163c4e56c2e9145d inc/Module/Install/Base.pm
+SHA1 4ccba94e6828ab2cb59fe582eec9b759b0862869 inc/Module/Install/Can.pm
+SHA1 e24b1027eae4f7c25d5f236831b0f52f2142cdad inc/Module/Install/Compiler.pm
+SHA1 d86dec4e99e1133b39aaaa6c69b55dbec351905f inc/Module/Install/Fetch.pm
+SHA1 ec4a35c2e498c20a604242df67842f3242313aed inc/Module/Install/Makefile.pm
+SHA1 9d35b4410d714dc61444bfd977f850abcda83c16 inc/Module/Install/Metadata.pm
+SHA1 99b5ff114ac4f2f142976f67328a2814fcadb300 inc/Module/Install/Win32.pm
+SHA1 1231918c7cb545546c781ee06d343080db670ed8 inc/Module/Install/WriteAll.pm
+SHA1 80fe6a3d7a3a40ad0f12015144e5618c0d601616 internal.h
+SHA1 26552117c53b90a9dee7c1b7fa73ce83504a9c8c lib/re/override.pm
+SHA1 04c9736b6abb82f8f904377fb992e7a3b558045c lib/re/override/PCRE.pm
+SHA1 acd23008e84fd2053db142c397569a998f0860e8 pcre.h
+SHA1 dae714e538e40e8403e5edd9373ec15593d2bc92 pcre.i
+SHA1 da70aeb7b2ffceab3f714c1b78e60ce24087647b pcre_.c
+SHA1 19efc1f1cb1d430967d0912e49be36c5e4a55ac8 pcre_wrap.c
+SHA1 3c39a094c84c9c997491a989f8ea3186aca91db3 pcreposix.c
+SHA1 1a6d5998235bf213b9f2a56b8043f93736296764 pcreposix.h
+SHA1 2e2d8155197e6e1b48c21b5a162d34fa164bcce3 printint.c
+SHA1 2619437ffde771ad6f18ad6c028cf0fb1050581d re_override.c
+SHA1 9fd16e3b8ec9da3df0795424d510f18f96ccadf3 study.c
+SHA1 9006105ec6e96efed2c78acc5e2742b5f03d18aa t/1-basic.t
+SHA1 e89706aa7a55fd6638fbf536f7064b35e46d7113 ucp.c
+SHA1 e65215a6ca7cc9233d8719ec4a525cbcae03ba4a ucp.h
+SHA1 03b6c6f15c9db3acb9c60137c1f2983954ae1c28 ucpinternal.h
+SHA1 6ecd083e558bc8ab6b04852a0855a395b2926d0e ucptable.c
+SHA1 aa7731fb097f1367d2a8fa2d8df318b348ea15c3 ucptypetable.c
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.2 (FreeBSD)
+
+iD8DBQFEEYDHtLPdNzw1AaARArfLAKCUHTQzbYMMPVa8SuvpXJWLsE2O1gCfYenh
+IKNqgrg5JWljIu7J/qfnoRA=
+=kn0p
+-----END PGP SIGNATURE-----

@@ -1,0 +1,13 @@
+abstract: Override Perl regular expressions
+author: Mitchell N "putter" Charity,
+distribution_type: module
+generated_by: Module::Install version 0.59
+license: perl
+name: re-override
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  perl: 5.005
+version: 0.01
