@@ -1,4 +1,4 @@
-#line 1 "/home/autrijus/work/Regexp-PCRE/inc/Module/Install.pm - /usr/local/lib/perl5/site_perl/5.8.8/Module/Install.pm"
+#line 1 "/home/autrijus/work/pugs/perl5/re-override/inc/Module/Install.pm - /usr/local/lib/perl5/site_perl/5.8.8/Module/Install.pm"
 package Module::Install;
 
 use 5.004;
